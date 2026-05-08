@@ -16,7 +16,7 @@ workflows:
         - push
         - pull_request
       branch:
-        include_patterns:
+        included_branchs:
           - main
           - develop
     scripts:
